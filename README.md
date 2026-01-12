@@ -20,14 +20,14 @@ Cartpole-Game-DQN/
 └── README.md             # Project documentation
 
 ## ⚙️ Setup & Installation
-# Prerequisites
+### Prerequisites
 
 Make sure you have Python installed. You will need the following libraries:
 Bash
 
 pip install gym torch numpy
 
-# Cloning the Repository
+### Cloning the Repository
 Bash
 
 git clone [https://github.com/Ayushyaverma/Cartpole-Game-DQN.git](https://github.com/Ayushyaverma/Cartpole-Game-DQN.git)
@@ -36,7 +36,7 @@ cd Cartpole-Game-DQN
 ## 🚀 Usage
 
 The main logic is handled in dqnv2.py. You can switch between Training Mode and Playing Mode by modifying the TRAIN variable inside the code.
-# 1. Play with Pre-trained Model (Default)
+### 1. Play with Pre-trained Model (Default)
 
 To watch the agent play using the saved model (dqn_cartpole.pth):
 
@@ -52,7 +52,7 @@ Bash
 
     python dqnv2.py
 
-# 2. Train a New Model
+### 2. Train a New Model
 
 To train the agent from scratch:
 
@@ -70,7 +70,7 @@ Bash
 
     The model will train and save the weights to dqn_cartpole.pth upon completion.
 
-# 3. Adjusting Episodes
+### 3. Adjusting Episodes
 
 You can control how many times the agent plays or trains by changing the episodes variable in the script.
 Python
